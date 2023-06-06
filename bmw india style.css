@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+    div.box1{
+        width: 100%;
+        height: 850px;
+        position: relative;
+        bottom: 20px;
+    }
+    div.box2{
+        position: absolute;
+        height: 50px;
+        width: 250px;
+        border: 1.5px solid white;
+        bottom: 240px;
+        left: 100px;
+    }
+    p3{
+        font-size: x-large;
+        font-style: italic;
+        position: absolute;
+        top: 13px;
+        left: 50px;
+        color: white;
+    }
+    div.box3{
+        position: absolute;
+        height: 50px;
+        width: 250px;
+        border: 1.5px solid white;
+        bottom: 170px;
+        left: 100px;
+    }
+    p4{
+        font-size: x-large;
+        font-style: italic;
+        position: absolute;
+        top: 13px;
+        left: 50px;
+        color: white;
+    }
+    div.logo{
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+    div.search{
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+    .searchbox{
+        background-color: gainsboro;
+        color: black;
+    }
+    div.dot{
+        color: black;
+        position: absolute;
+        top: 90px;
+        left: 280px;
+    }
+    p1{
+        position: absolute;
+        top: 110px;
+        color: white;
+        font-size: larger;
+        right: 20px;
+    }
+    p2{
+        position: absolute;
+        bottom: 310px;
+        color: white;
+        font-size: xx-large;
+        left: 70px;    
+    }
+    .allinks{
+        height: 50px;
+        width: 60%;
+        position: absolute;
+        top: 25px;
+        left: 230px;
+        font-size: larger;
+    }
+    a{
+      text-decoration: none;    
+    }
+    span.link1{
+        margin-left: 80px;
+        color: rgb(255, 255, 255);
+    }
+     div.box4{
+        height: 280px;
+        width: 49%;
+        margin-top: 15px;
+        margin-left: 1px;
+        float: left;
+        position: relative;
+    }
+    p5{
+        position: absolute;
+        color: white;
+        font-size: xx-large;
+         left: 30px;
+         top: 30px;
+    }
+    div.box5{
+        height: 280px;
+        width: 50%;
+        margin-top: 15px;
+        float: right;
+        position: relative;    
+    }
+    p6{
+        position: absolute;
+        color: white;
+        font-size: xx-large;
+         left: 30px;
+         top: 30px; 
+    }
+    div.box6{
+        position: absolute;
+        height: 50px;
+        width: 220px;
+        border: 2px solid white;
+        top: 80px;
+        left: 30px;
+    }
+    div.box7{
+        height: 550px;
+        width: 550px;
+        border: 1px solid grey;
+        float: left;
+        margin-left: 180px;
+        margin-top: 30px;
+        position: relative;
+    }
+    div.bmwback{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    p7{
+        position: absolute;
+        top: 320px;
+        left: 10px;
+        font-size: xx-large;
+    }
+    p8{
+        top: 410px;
+        left: 10px;
+        position: absolute;
+        font-size: large;
+        color: rgb(58, 49, 49);
+    }
+    p9{
+        position: absolute;
+        top: 500px;
+        left: 10px;
+        color: blue;
+        font-size: large;
+    }
+    div.box8{
+        height: 550px;
+        width: 550px;
+        border: 1px solid grey;
+        float: left;
+        margin-left: 30px;
+        margin-top: 30px;
+        position: relative;
+    }
+    p10{
+        margin-top: 100px;
+        float: left;
+        margin-left: 120px;
+        font-size: xx-large;
+        color: black;
+    }
+    div.box9{
+        height: 530px;
+        width: 100%;
+        float: left;
+        margin-left: 5px;
+        margin-top: 10px;
+        position: relative;
+    }
+    div.links2{
+        position: absolute;
+        height: 80px;
+        width: 60%;
+        top: 40px;
+        left: 70px;
+        display: flex;
+    }
+    h3{
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: large;
+        color: black;
+    }
+    div.animation{
+        width: 580px;
+        height: 330px;
+        overflow: hidden;
+        position: absolute;
+        left: 120px;
+        top: 155px;
+    }
+    div>section.animation2{
+        width: 2900px;
+        height:  300px;
+        position: relative;
+        animation: myani 10s forwards  ease-in-out;
+    }
+    section>img{
+        width: 580px;
+        height: 330px;
+        float: left;
+    }
+    @keyframes myani{
+        0%{ left: 0px;}
+        20%{ left: 0px;}
+        25%{ left: -580px;}
+        40%{ left: -580px;}
+        45%{ left: -1160px;}
+        60%{ left: -1160px;}
+        65%{ left: -1740px;}
+        80%{ left: -1740px;}
+        85%{ left: -2320px;}
+        100%{ left: -2320px;}
+    }
+    div.reward{
+        position: absolute;
+        top: 150px;
+        left: 100px;
+    }
+    p11{
+        position: absolute;
+        top: 150px;
+        font-size: xx-large;
+        left: 730px;
+    }
+    p12{
+        position: absolute;
+        font-size: large;
+        top: 200px;
+        left: 730px;
+    }
+    p13{
+        position: absolute;
+        font-size: large;
+        color: blue;
+        top: 270px;
+        left: 730px;
+    }
+    div.box10{
+        height: 200px;
+        width: 98%;
+        float: left;
+        margin-left: 10px;
+        position: relative;
+    }
+    div.box11{
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        background-color: whitesmoke;
+        top: 50px;
+        left: 130px;
+    }
+    h4{
+        position: absolute;
+        top: 40px;
+        color: rgb(87, 78, 78);
+        left: 40px;
+        font-size: medium;
+    }
+    div.box12{
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        background-color: whitesmoke;
+        top: 50px;
+        left: 350px;
+    }
+    div.box13{
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        background-color: whitesmoke;
+        top: 50px;
+        left: 570px;
+    }
+    div.box14{
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        background-color: whitesmoke;
+        top: 50px;
+        left: 780px;
+    }
+    div.box15{
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        background-color: whitesmoke;
+        top: 50px;
+        left: 1000px;
+    }
+    div.box16{
+        position: relative;
+        height: 500px;
+        width: 99%;
+        float: left;
+        margin-top: 15px;
+    }
+    div.link3{
+        display: flex;
+        height: 60PX;
+        width: 500px;
+        position: absolute;
+        top: 30px;
+        left: 120px;
+    }
+    a.linkclass1{
+        color: rgb(59, 52, 52);
+        font-size: larger;
+    }
+    div.dot1{
+        position: absolute;
+        top: 90px;
+        left: 110px;
+    }
+    div.ibox1{
+        position: absolute;
+        height: 350px;
+        width: 300px;
+        top: 130px;
+        left: 110px;
+    }
+    img.bmwx3m40i{
+        position: absolute;
+        left: 15px;
+    }
+    img.msport{
+        position: absolute;
+        top: 140px;
+    }
+    div.newbox{
+        height: 27px;
+        width: 60px;
+        background-color: black;
+        position: absolute;
+        left: 240px;
+    }
+    p14{
+        color: white;
+        position: absolute;
+        top: 4px;
+        left: 10px;
+    }
+    p15{
+        position: absolute;
+        top: 170px;
+        left: 5px;
+        font-size: x-large;
+    }
+    p16{
+        position: absolute;
+        top: 205px;
+        left: 6px; 
+    }
+    p17{
+        position: absolute;
+        top: 230px;
+        left: 6px;
+        font-size: large; 
+    }
+    p18{
+        position: absolute;
+        top: 270px;
+        left: 6px;
+        font-size: large;
+        color: blue;     
+    }
+    p19{
+        position: absolute;
+        top: 300px;
+        left: 6px; 
+        font-size: large;
+        color: blue;    
+    }
+    div.ibox2{
+        position: absolute;
+        height: 350px;
+        width: 300px;
+        top: 130px;
+        left: 440px;
+    }
+    div.ibox3{
+        position: absolute;
+        height: 350px;
+        width: 300px;
+        top: 130px;
+        left: 760px;
+    }
+    div.ibox4{
+        position: absolute;
+        height: 350px;
+        width: 300px;
+        top: 130px;
+        left: 1050px;
+    }
+    div.box17{
+        height: 530px;
+        width: 550px;
+        border: 1px solid grey;
+        float: left;
+        margin-left: 180px;
+        margin-top: 30px;
+        position: relative;
+    }
+    div.box18{
+        height: 530px;
+        width: 550px;
+        border: 1px solid grey;
+        float: left;
+        margin-left: 30px;
+        margin-top: 30px;
+        position: relative;
+    }
+    footer{
+        height: 350px;
+        width: 100%;
+        background-color: gainsboro;
+        float: left;
+        margin-top: 50px;
+        position: relative;
+    }
+    ol{
+        position: absolute;
+        top: 70px;
+        left: 160px;
+    }
+    a.footerclass{
+       color: black;
+    }
+    h6{
+        font-size: larger;
+    }
+    .ol2{
+        position: absolute;
+        left: 460px;
+    }
+    .ol3{
+        position: absolute;
+        left: 820px;
+    }
+    .ol4{
+        position: absolute;
+        left: 1150px;
+    }
+    div.backfooter{
+        height: 100px;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    p20{
+        position: absolute;
+        top: 40px;
+        left: 100px;
+        font-size: large;
+    }
+    div.links4{
+        position: absolute;
+        height: 40px;
+        width: 650px;
+        display: flex;
+        top: 30px;
+        left: 850px;
+    }
+    p23{
+            margin-left: 60px;
+            margin-top: 10px;
+            font-size: large;
+            color: blue;
+    }
+    p22{
+        position: absolute;
+        top: 750px;
+        font-size: x-large;
+        color: white;
+        left: 500px;
+    }
